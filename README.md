@@ -11,16 +11,28 @@ Esses operadores são utilizados para criarmos expressões matemáticas comuns, 
 
 Veja quais estão disponíveis no Python:
 
-Operador|	Nome|	Função
-:--------:| :-------:|--------
-+|	Adição|	Realiza a soma de ambos operandos.
--|	Subtração|	Realiza a subtração de ambos operandos.
-*|	Multiplicação|	Realiza a multiplicação de ambos operandos.
-/|	Divisão|	Realiza a Divisão de ambos operandos.
-//|	Divisão inteira|	Realiza a divisão entre operandos e a parte decimal de ambos operandos.
-%|	Módulo|	Retorna o resto da divisão de ambos operandos.
-**|	Exponenciação|	Retorna o resultado da elevação da potência pelo outro.
- 	
+Operador|Nome|Função
+:--------:|:-------:|--------
++|**Adição**|Realiza a soma de ambos operandos.
+-|**Subtração**|Realiza a subtração de ambos operandos.
+*|**Multiplicação**|Realiza a multiplicação de ambos operandos.
+/|**Divisão**|Realiza a Divisão de ambos operandos.
+//|**Divisão inteira**|Realiza a divisão entre operandos e a parte decimal de ambos operandos.
+%|**Módulo**|Retorna o resto da divisão de ambos operandos.
+**|**Exponenciação**|Retorna o resultado da elevação da potência pelo outro.
+
+```py
+# Pede para o usuário digitar um número inteiro
+numero = int(input("Digite um número inteiro: "))
+
+# Verifica se o número é par ou ímpar
+if numero % 2 == 0:
+    print(f"O número {numero} é par.")
+else:
+    print(f"O número {numero} é ímpar.")
+```
+[Clique aqui](https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python) para saber mais sobre os Operadores Aritméticos.
+  
 ### Operadores lógicos/comparativos
 - Estruturas condicionais (if/elif/else)
 
