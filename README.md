@@ -7,6 +7,20 @@
 Para saber mais, [clique aqui.](https://dev.to/dormin/tipos-primitivos-em-python-10jg)
 
 ### Operadores aritméticos
+Esses operadores são utilizados para criarmos expressões matemáticas comuns, como soma, subtração, multiplicação e divisão.
+
+Veja quais estão disponíveis no Python:
+
+Operador|	Nome|	Função
+:--------:| :-------:|--------
++|	Adição|	Realiza a soma de ambos operandos.
+-|	Subtração|	Realiza a subtração de ambos operandos.
+*|	Multiplicação|	Realiza a multiplicação de ambos operandos.
+/|	Divisão|	Realiza a Divisão de ambos operandos.
+//|	Divisão inteira|	Realiza a divisão entre operandos e a parte decimal de ambos operandos.
+%|	Módulo|	Retorna o resto da divisão de ambos operandos.
+**|	Exponenciação|	Retorna o resultado da elevação da potência pelo outro.
+ 	
 ### Operadores lógicos/comparativos
 - Estruturas condicionais (if/elif/else)
 
